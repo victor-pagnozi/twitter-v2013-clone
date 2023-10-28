@@ -299,33 +299,10 @@ body {
 
 .stats {
   margin: 12px 0 12px 42px;
-  border-top: 1px solid #e8e8e8;
 }
 .stats,
 .stats div {
   box-sizing: border-box;
-}
-.num-retweets,
-.num-favorites {
-  font-weight: bold;
-  font-size: 14px;
-  text-align: left;
-}
-.users-interact,
-.retweets,
-.favorites {
-  display: inline-block;
-  height: 45px;
-  text-align: center;
-  box-sizing: border-box;
-  padding: 5px;
-  padding-bottom: 8px;
-}
-
-.retweets,
-.favorites {
-  font-size: 10px;
-  border-right: 1px solid #e8e8e8;
 }
 
 .users-interact img {

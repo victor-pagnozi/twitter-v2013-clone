@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+  </head>
+  <body>
+    <div id="page-container">
+      <div id="main">
+        <h2>Tweets</h2>
+        <div id="stream">
+          <div class="tweet">
+            <div class="content">
+              <img class="avatar" src="img/damenleeturks.jpg" />
+              <strong class="fullname">My BFF</strong>
+              <span class="username">@mybff</span>
+
+              <p class="tweet-text">Today is an amazing day.</p>
+              <div class="tweet-actions">
+                <ul>
+                  <li><span class="icon action-reply"></span> Reply</li>
+                  <li><span class="icon action-retweet"></span> Retweet</li>
+                  <li><span class="icon action-favorite"></span> Favorite</li>
+                  <li><span class="icon action-more"></span> More</li>
+                </ul>
+              </div>
+
+              <div class="stats">
+                <div class="retweets">
+                  <p class="num-retweets">30</p>
+                  <p>RETWEETS</p>
+                </div>
+                <div class="favorites">
+                  <p class="num-favorites">6</p>
+                  <p>FAVORITES</p>
+                </div>
+                <div class="users-interact">
+                  <div>
+                    <!-- BLACK DIAMOND: Implement the Bootstrap tooltips for when you hover over a user’s avatar image -->
+                    <!-- HINT: Bootstrap has good documentation =) -->
+                    <img src="img/alagoon.jpg" />
+                    <img src="img/vklimenko.jpg" />
+                  </div>
+                </div>
+
+                <!-- BLACK DIAMOND: Make the timestamp below similar to how they look on Twitter (1h, 18m, 1m) and use the jQuery timeago plugin to make them automatic. -->
+                <!-- HINT: Refer to timeago documentation -->
+                <div class="time">1:04 PM - 19 Sep 13</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- #stream -->
+      </div>
+      <!-- #main -->
+    </div>
+    <!-- #page-container -->
+  </body>
+
+	<footer></footer>
+</html>

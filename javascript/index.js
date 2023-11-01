@@ -5,7 +5,7 @@ window.onload = async function () {
 
   const response = await fetch(`${url}?${new URLSearchParams({
     q: "brazil dev",
-    from: "2023-09-28",
+    from: "2023-10-01",
     sortBy: "publishedAt",
     apiKey
   })}`, {
